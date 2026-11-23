@@ -6,12 +6,13 @@
 
 
 .nav_items{
-    display: flex;
+    display:flex;
     justify-content: space-between;
     align-items: start;
-    gap:40px;
+    gap:20px;
     
 }
+
 
 .hamburger{
     display: none;

@@ -7,7 +7,7 @@ function App(){
   return(
     <div>
       <Navbar/>
-      <h1 className="heading1"> OurBlooms</h1>
+    
       <Routes>
         <Route path="/" element={<Home />}/>
         <Route path="/about" element={<h1>About</h1>}/>

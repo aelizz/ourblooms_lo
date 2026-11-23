@@ -4,6 +4,7 @@ import c2 from '../assets/Carousel/Image 2.png'
 import c3 from '../assets/Carousel/Image 3.png'
 import c4 from '../assets/Carousel/Image 4.png'
 import c5 from '../assets/Carousel/Image 5.png'
+import Button from './Button'
 function Carousel(){
     return(
         <>
@@ -11,6 +12,7 @@ function Carousel(){
             <p className="caption1"> Who we are</p>
             <p className="heading2">We're Our Blooms® and we're here to help you find your floral story.</p>
             <button className="btn-yellow"> About Us</button>
+            <Button buttonName="ABOUT US" />
         </div>
         <section className = "carousel">
             <img src={c1} alt="Image 1"/>

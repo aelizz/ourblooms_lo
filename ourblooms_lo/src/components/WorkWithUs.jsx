@@ -1,10 +1,12 @@
+import Button from './Button'
+
 function WorkWithUs(){
     return(
         <>
-        <div>
+        <div className ="WorkWithUs">
             <h2 className="caption1"> WORK WITH US</h2>
             <h3 className ="heading2">Discover how we can add a touch of natural beauty to your next event</h3>
-            <button className="btn-yellow">About Us</button>
+           <Button buttonName="ABOUT US" />
         </div>
         </>
     )
