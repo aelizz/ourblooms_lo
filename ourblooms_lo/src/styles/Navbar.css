@@ -1,0 +1,28 @@
+.navbar{
+    display:flex;
+    justify-content: space-between;
+    
+}
+
+
+.nav_items{
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    gap:40px;
+    
+}
+
+.hamburger{
+    display: none;
+}
+
+
+@media screen and ( max-width:799px ){
+    .nav_items{
+        flex-direction: column;
+    }
+    .hamburger{
+        display:block;
+    }
+}
