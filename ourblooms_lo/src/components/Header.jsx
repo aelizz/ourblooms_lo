@@ -1,4 +1,4 @@
-import l2 from '../assets/Logo/Image-2.png'
+import l2 from '../assets/blooms/Logo-1.png'
 import l1 from '../assets/Logo/Image-1.png'
 import l3 from '../assets/Logo/Image.png'
 function Header(){
